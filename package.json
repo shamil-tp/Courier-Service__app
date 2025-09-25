@@ -1,0 +1,21 @@
+{
+  "name": "courier-service",
+  "version": "1.0.0",
+  "description": "An Express.js-based courier application for managing and tracking deliveries, built with a Mongoose database and EJS for dynamic views.",
+  "license": "ISC",
+  "author": "Shamil T P",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm index"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.2"
+  }
+}
