@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Register</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="/login/login.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="offset-md-4 offset-2 col-8 col-md-4 mt-5">
+      <div class="h2 text-center form__heading">Register</div>
+      <form class="mt-5 form__container" action="/admin/register" method="post">
+        <div class="mb-3">
+          <label for="Username" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="Username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="Username" name="username" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+        </div>
+        <div class="mb-3">
+          <p class="text-danger"><%=msg%></p>
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
